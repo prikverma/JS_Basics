@@ -1,2 +1,2 @@
-const btton = document.getElementById("btn-make-appointment").innerHTML = "Hello"
-console.log(btton)
+document.getElementById("btn-make-appointment").innerHTML = "<h1>'Hello'</h1>"
+
