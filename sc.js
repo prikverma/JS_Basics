@@ -1,5 +1,6 @@
 const btton1 = document.getElementById("btn-make-appointment")
-btton1.innerHTML = "<h1>'Hello'</h1>"
+
+btton1.innerHTML = "<h1>hello</h1>"
 // Changing Background color using style attribute
 btton1.style.backgroundColor = "Yellow"
 // on click event handling using script we are changing its behaviour what it will do after this event
