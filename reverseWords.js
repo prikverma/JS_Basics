@@ -2,7 +2,7 @@
 
 const str = "big black bug bit a big black dog on";
 function reverseWord(str) {
-    let normalize = str.split(" ")
+    let normalize = str.split(" ")// space in " " so that words ka array ban jaye
     console.log(normalize);// spliting string to words array
     let finalize = ''
     for (let i = 0; i < normalize.length; i++) {

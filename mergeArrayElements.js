@@ -12,7 +12,12 @@ for (i = 0; i < length; i++) {
     if (i < arr1Len) {
         mergedArr.push(array1[i])
 
-    } if (i < i < arr2Len) {
+    } if (i < arr2Len) {
         mergedArr.push(array2[i])
     }
 } console.log(mergedArr);
+
+// second method we can use ... spread operator
+let mergedArray = [...array1, ...array2]
+console.log('mergedArray : ', mergedArray);
+
